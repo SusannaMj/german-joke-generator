@@ -8,15 +8,19 @@
     <title>German Joke Generator</title>
   </head>
   <body>
+    <div class="container">
     <h1>German Joke Generator</h1>
-    <input
-      type="text"
-      autofocus="on"
-      autocomplete="off"
-      placeholder="Enter topic "
-    />
-    <input type="submit" />
-    <div>Joke goes here 😊</div>
+    <form>
+      <input
+        type="text"
+        autofocus="on"
+        autocomplete="off"
+        placeholder="Enter topic "
+        class="text-field"
+      />
+      <input type="submit" class="submit-button"/>
+    </form>
+    <div class="joke">Joke goes here 😊 <br/> Hope it´s a funny one</div>
     <source src="src/index.js" type="" />
   </body>
   <footer>
@@ -28,5 +32,5 @@
     <a href="https://german-joke-generator.netlify.app/" target="_blank">
       Netlify</a
     >
-  </footer>
+  </footer></div>
 </html>

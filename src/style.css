@@ -1,1 +1,60 @@
+body {
+  background-color: rgb(236, 249, 249);
+}
 
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: rgb(78, 150, 201);
+}
+
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+
+form {
+  background-color: rgb(252, 253, 253);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text-field {
+  width: 80%;
+  font-size: 15px;
+  padding: 12px;
+  border: 1px solid rgb(78, 150, 201);
+  border-radius: 25px;
+  color: black;
+}
+
+.submit-button {
+  font-size: 15px;
+  padding: 12px;
+  width: 90px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background-color: rgb(78, 150, 201);
+  color: aliceblue;
+  border: none;
+}
+
+.joke {
+  background-color: rgb(252, 253, 253);
+  border-left: 2px solid rgb(78, 150, 201);
+  font-size: 17px;
+  line-height: 2;
+  padding: 10px;
+}
