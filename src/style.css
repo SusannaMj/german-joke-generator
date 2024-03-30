@@ -40,6 +40,10 @@ form {
   color: black;
 }
 
+.hidden {
+  display: none;
+}
+
 .submit-button {
   font-size: 15px;
   padding: 12px;
@@ -57,4 +61,14 @@ form {
   font-size: 17px;
   line-height: 2;
   padding: 10px;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }

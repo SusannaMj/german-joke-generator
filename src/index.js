@@ -18,6 +18,10 @@ function generateJoke(event) {
   let context = `User instructions: Tell us a joke about ${input.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let jokeElement = document.querySelector("#joke-window");
+  jokeElement.classList.remove("hidden");
+
+  jokeElement.innerHTML = `<div class="blink_me" > Generating joke about ${input.value} ... 🤔 <div/>`;
   axios.get(apiUrl).then(displayJoke);
 }
 
