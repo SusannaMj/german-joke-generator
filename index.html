@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
 
     <title>German Joke Generator</title>
@@ -10,18 +11,21 @@
   <body>
     <div class="container">
     <h1>German Joke Generator</h1>
-    <form>
+    <form id="joke-generator-form">
       <input
         type="text"
         autofocus="on"
         autocomplete="off"
         placeholder="Enter topic "
         class="text-field"
+        id="text-field"
       />
-      <input type="submit" class="submit-button"/>
+      <input type="submit" class="submit-button" id="submit-button"/>
     </form>
-    <div class="joke">Joke goes here 😊 <br/> Hope it´s a funny one</div>
-    <source src="src/index.js" type="" />
+    <div class="joke" id="joke-window"></div>
+   
+ 
+  <script src="src/index.js"></script>
   </body>
   <footer>
     This site has been coded by Susanna Mjetk and is open-sourced on
