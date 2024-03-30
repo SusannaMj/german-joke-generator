@@ -14,7 +14,7 @@ function generateJoke(event) {
 
   let apiKey = "49t1f4o8a06a34d2d2bcfda963fe315f";
   let prompt =
-    "You are a funny german native who loves to tell innocent jokes and make people laugh. You are telling a joke about the topic from the user instructions and diplay the joke in html. The joke is a maximum of 8 lines long and in german language. Please separate every line by a <br/> and sign with 😉 AI at the bottom. Put the ignature into a separate line";
+    "You are a funny german native who loves to tell innocent jokes and make people laugh. You are telling a joke about the topic from the user instructions and diplay the joke in html. The joke is a maximum of 8 lines long and in german language. Please separate every line by a <br/> and sign with 😉 AI  at the bottom. Put the ignature into a separate line. Keep the line height cosistent in each line";
   let context = `User instructions: Tell us a joke about ${input.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
